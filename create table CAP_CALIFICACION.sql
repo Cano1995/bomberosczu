@@ -1,0 +1,20 @@
+-- Create table
+create table CAP_CALIFICACION
+(
+  cal_clave       NUMBER not null,
+  cal_persona     NUMBER,
+  cal_fecha       DATE,
+  cal_observacion VARCHAR2(250),
+  cal_user        VARCHAR2(8)
+);
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table CAP_CALIFICACION
+  add constraint PK_CLAVE_CAL primary key (CAL_CLAVE)
+  using index 
+  tablespace APEX_3200540589736334
+  pctfree 10
+  initrans 2
+  maxtrans 255;
+alter index PK_CLAVE_CAL nologging;
+-- Grant/Revoke object privileges 
+grant select, insert, update, delete on CAP_CALIFICACION to PUBLIC;
