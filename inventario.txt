@@ -1,0 +1,1 @@
+se creara un sistema de toma de inventarios para estaciones de bombero, se creara de la manera mas generica posible
