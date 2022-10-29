@@ -3,9 +3,93 @@ PL/SQL Developer Project Desktop
 [Desktop]
 SavePath=C:\repositorio\plsql_developer\bomberosczu\
 
+Index=1
+Filename=
+Connection=X.6YWg8sEVmmma2orhNv4LyRRi
+Rect.Left=0
+Rect.Right=0
+Rect.Top=0
+Rect.Bottom=0
+
+Index=1
+Filename=
+Connection=X.9iBDZZmHXVtD+yWT3IoJM5yU
+Rect.Left=0
+Rect.Right=0
+Rect.Top=0
+Rect.Bottom=0
+
+Index=1
+Filename=
+Connection=X.P9VUUUwQG7JE2R0Bi9K+9OhW
+Rect.Left=0
+Rect.Right=0
+Rect.Top=0
+Rect.Bottom=0
+
+Index=1
+ObjectType=PROCEDURE
+ObjectOwner=ADCS
+ObjectName=ACO_REMISION_GRANOS
+ReadOnly=0
+SpecAndBody=0
+Filename=
+VCSDBObject=0
+Connection=X.FL1eM4XHgCiOY5Fi5cvlQAyc
+Rect.Left=0
+Rect.Right=0
+Rect.Top=0
+Rect.Bottom=0
+DPI=120
+Left=0
+Top=0
+Width=1603
+Height=817
+State=0
+Type=3
+ChildListIndex=3
+WindowName=Edit ADCS.ACO_REMISION_GRANOS@P
+Pinned=0
+IsMainConnection=-1
+
+Index=2
+ObjectType=PACKAGE
+ObjectOwner=ADCS
+ObjectName=ACOC203
+ReadOnly=0
+SpecAndBody=-1
+Filename=
+VCSDBObject=0
+Connection=X.hSgYBLB5l7RAB5777lkSzesC
+Rect.Left=0
+Rect.Right=0
+Rect.Top=0
+Rect.Bottom=0
+DPI=120
+Left=0
+Top=0
+Width=1120
+Height=491
+State=0
+Type=3
+ChildListIndex=1
+WindowName=Edit ADCS.ACOC203@P
+Pinned=0
+IsMainConnection=-1
+
 [Files]
 
 [MRU]
+3,Z:\scripts\finanzas\FINI201desa.pck
+3,Z:\scripts\finanzas\FINM300_PKGdesa.pck
+3,Z:\scripts\finanzas\FINM004desa.pck
+3,Z:\scripts\finanzas\FINM001desa.pck
+1,C:\repositorio\plsql_developer\bomberosczu\create sequence DOCUMENTOS_STK_SEQ.sql
+1,C:\repositorio\plsql_developer\bomberosczu\create sequence SEQ_GRUPO.sql
+1,C:\repositorio\plsql_developer\bomberosczu\create sequence STK_ARTICULO_SEQ.sql
+1,C:\repositorio\plsql_developer\bomberosczu\create sequence SEQ_MARCACION.sql
+1,C:\repositorio\plsql_developer\bomberosczu\create sequence STK_TIPO_OPERACION_SEQ.sql
+1,C:\repositorio\plsql_developer\bomberosczu\create sequence CAP_PERIODO_GUARDIA_SEQ.sql
 
 [Layout]
 Group=
