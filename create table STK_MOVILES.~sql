@@ -9,15 +9,7 @@ create table STK_MOVILES
   mov_año    VARCHAR2(5) not null,
   mov_estado NUMBER not null
 )
-tablespace APEX_3200540589736334
-  pctfree 10
-  initrans 1
-  maxtrans 255;
+
 -- Create/Recreate primary, unique and foreign key constraints 
 alter table STK_MOVILES
-  add constraint STK_MOVILES_PK primary key (MOV_CLAVE)
-  using index 
-  tablespace APEX_3200540589736334
-  pctfree 10
-  initrans 2
-  maxtrans 255;
+  add constraint STK_MOVILES_PK primary key (MOV_CLAVE);

@@ -8,9 +8,3 @@ create table CAP_PERIODO_GUARDIA
 -- Create/Recreate primary, unique and foreign key constraints 
 alter table CAP_PERIODO_GUARDIA
   add constraint CAP_PERIODO_GUARDIA_PK primary key (PERG_CLAVE);
---
--- Add/modify columns 
-alter table CAP_PERIODO_GUARDIA add perg_can_guard number;
--- Add comments to the columns 
-comment on column CAP_PERIODO_GUARDIA.perg_can_guard
-  is 'CANTIDAD DE GUARDIAS POR SEMANA';

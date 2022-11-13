@@ -12,5 +12,3 @@ alter table STK_MOV_COMPARTIMENTO
 alter table STK_MOV_COMPARTIMENTO
   add constraint XFK_MOVIL_COMPARTIMIENTO foreign key (COM_MOVIL_CLAVE)
   references STK_MOVILES (MOV_CLAVE);
--- Drop columns 
-alter table STK_MOV_COMPARTIMENTO drop column com_item;

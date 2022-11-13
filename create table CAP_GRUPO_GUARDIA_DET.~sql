@@ -15,10 +15,3 @@ alter table CAP_GRUPO_GUARDIA_DET
   references CAP_GRUPO_GUARDIA (GRU_CLAVE);
 -- Grant/Revoke object privileges 
 grant select, insert, update, delete on CAP_GRUPO_GUARDIA_DET to PUBLIC;
---
--- Create/Recreate primary, unique and foreign key constraints 
-alter table CAP_GRUPO_GUARDIA_DET
-  drop constraint FK_G_CLAVE;
-alter table CAP_GRUPO_GUARDIA_DET
-  add constraint FK_G_CLAVE foreign key (GRUD_CLAVE)
-  references CAP_GRUPO_GUARDIA (GRU_CLAVE) on delete cascade;
