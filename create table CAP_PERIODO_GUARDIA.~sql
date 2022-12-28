@@ -1,10 +1,11 @@
 -- Create table
-create table CAP_PERIODO_GUARDIA
+create table CAP_PERIODO_DIAS
 (
-  perg_clave   NUMBER not null,
-  perg_fec_ini DATE not null,
-  perg_fec_fin DATE not null
-);
--- Create/Recreate primary, unique and foreign key constraints 
-alter table CAP_PERIODO_GUARDIA
-  add constraint CAP_PERIODO_GUARDIA_PK primary key (PERG_CLAVE);
+  dia_clave        NUMBER not null,
+  dia_nombre       NUMBER not null,
+  dia_hora_entrada DATE default to_DATE('01/01/2018 07:00:00','DD/MM/YYYY HH24:MI:SS'),
+  dia_hora_salida  DATE default to_DATE('01/01/2018 07:00:00','DD/MM/YYYY HH24:MI:SS')
+)
+alter table CAP_PERIODO_DIAS
+  add constraint FKS_PERI_DIA foreign key (DIA_CLAVE)
+  references CAP_PERIODO_GUARDIA (PERG_CLAVE) on delete cascade;

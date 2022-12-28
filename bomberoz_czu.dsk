@@ -3,59 +3,19 @@ PL/SQL Developer Project Desktop
 [Desktop]
 SavePath=C:\repositorio\plsql_developer\bomberosczu\
 
-Index=1
-Filename=
-Connection=X.HP4sMSNoyj1BO+8YfjlIWQXN
-Rect.Left=0
-Rect.Right=0
-Rect.Top=0
-Rect.Bottom=0
-
-Index=1
-Filename=
-Connection=X.7Y5ELSEZSuPSCPyFvsGKaz20
-Rect.Left=0
-Rect.Right=0
-Rect.Top=0
-Rect.Bottom=0
-
-Index=1
-Filename=
-Connection=X.qrLlg0iXgS4/OWQh2xgKc38a
-Rect.Left=0
-Rect.Right=0
-Rect.Top=0
-Rect.Bottom=0
-
-Index=1
-Filename=
-Connection=X.4730l8v2pSBm07JK2uogZuFa
-Rect.Left=0
-Rect.Right=0
-Rect.Top=0
-Rect.Bottom=0
-
-Index=1
-Filename=
-Connection=X.6P1XCeU4DECHHnwEzUtYlchY
-Rect.Left=0
-Rect.Right=0
-Rect.Top=0
-Rect.Bottom=0
-
 [Files]
 
 [MRU]
-1,C:\repositorio\plsql_developer\bomberosczu\create table CAP_PERIODO_GUARDIA.sql
-1,C:\repositorio\plsql_developer\bomberosczu\create table CAP_GRUPO_GUARDIA_DET.sql
-1,C:\repositorio\plsql_developer\bomberosczu\create table CAP_GRUPO_GUARDIA.sql
-3,C:\Users\pro1\Documents\tablero\STKC019desa.pck
+1,C:\Users\pro1\Desktop\ssss.sql
+1,C:\Users\pro1\Documents\comi210\GENERAL.pck
+1,C:\Users\pro1\Documents\comi210\PKG_SIFEN.pck
+1,C:\Users\pro1\Documents\comi210\ACOI217.pck
+1,C:\Users\pro1\Documents\comi210\ACOI201.pck
 1,C:\Users\pro1\OneDrive - Grupo Hilagro\script_multiempresa\objetos bloqueatos.sql
-1,C:\repositorio\plsql_developer\bomberosczu\create table STK_MOV_COMPARTIMENTO.sql
-3,Z:\scripts\repuestoimplementacionsifen\FACI245desa.pck
-3,Z:\scripts\repuestoimplementacionsifen\STKI203desa.pck
-3,Z:\scripts\repuestoimplementacionsifen\STKI204desa.pck
-1,Z:\scripts\repuestoimplementacionsifen\FACI001P_DEVdesa.pck
+1,C:\Users\pro1\Documents\comi210\FACI242_Pdesa.pck
+1,C:\Users\pro1\Documents\comi210\FACI242_Ddesa.pck
+1,C:\Users\pro1\Documents\comi210\COMI210_Ddesa.pck
+1,C:\Users\pro1\Documents\comi210\COMI210_Pdesa.pck
 
 [Layout]
 Group=
